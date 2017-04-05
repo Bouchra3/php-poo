@@ -1,0 +1,35 @@
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 700px;
+	
+}
+th{
+	background: #f40c80;
+	color: #fff;
+}
+td, th{
+	padding: 7px;
+	text-align: left;
+	border: 1px solid #000;
+}
+input[type="submit"]{
+     border-radius: 6px;
+    padding: 2px;
+    width: 50%;
+    background: #2196f3;
+    color: #fafafa;
+}
+#Creat, #submit{
+	
+	width: 100px;
+	line-height: 10px;
+	display: block;
+	/*margin: 10px auto;*/
+	background: #0c80d3 none repeat scroll;
+	color: #fafafa;
+	padding: 10px 0;
+	font-size: 1rem;
+	border-radius: 4px;
+}

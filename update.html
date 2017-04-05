@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <!-- Page title -->
+        <title>WebForce3 - CRUD Create</title>
+    </head>
+
+    <body>
+        <div id="divUser">
+            <select id="listeUser">
+                <option value="0"> Chargement liste Utilisateur </option>
+            </select><br><br>
+            <input type="submit" id="Search" value="Search"/>
+        </div>
+        <form method="POST" id="formulaireUpdate" style="display: none">
+            <input type="hidden" id="id" name="id" />
+            <p>Nom</p>
+            <input type="text" id="nom" name="nom" />
+            <p>Prenom</p>
+            <input type="text" id="prenom" name="prenom"/>
+            <p>Post</p>
+            <input type="text" id="post" name="post"/><br><br>
+            <input type="submit" id="submit" value="submit"/>
+        </form>
+        <p id="Mike"></p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>
